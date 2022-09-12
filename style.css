@@ -25,20 +25,6 @@ body {
     color: white;
     box-shadow: 0 0 50px #b315917c;
 }
-/* .box:nth-child(2):hover {
-    background-color: #1887f2;
-    box-shadow: 0 0 50px #1876f285;
-}
-
-.box:nth-child(3):hover {
-    background-color: #1da1f2;
-    box-shadow: 0 0 50px #1da1f280;
-}
-
-.box:nth-child(4):hover {
-    background-color: #25d366;
-    box-shadow: 0 0 50px #25d3657e;
-} */
 
 .box.box2:hover {
     background-color: #0011ff;
