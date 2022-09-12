@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 40px;
+    height: 58px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 5px;
+    cursor: pointer;
+    margin: 0.6em;
+    transition: all .4s;
+}
+
+.box:hover {
+    width: 170px;
+    background-color: #E1306C;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 50px #b315917c;
+}
+/* .box:nth-child(2):hover {
+    background-color: #1887f2;
+    box-shadow: 0 0 50px #1876f285;
+}
+
+.box:nth-child(3):hover {
+    background-color: #1da1f2;
+    box-shadow: 0 0 50px #1da1f280;
+}
+
+.box:nth-child(4):hover {
+    background-color: #25d366;
+    box-shadow: 0 0 50px #25d3657e;
+} */
+
+.box.box2:hover {
+    background-color: #0011ff;
+    box-shadow: 0 0 50px #1876f285;
+}
+
+.box.box3:hover {
+    background-color: #1887f2;
+    box-shadow: 0 0 50px #1da1f280;
+}
+
+.box.box4:hover {
+    background-color: #25d366;
+    box-shadow: 0 0 50px #25d3657e;
+}
+
+.box.box5:hover {
+    /* background-color: #f16e22; */
+    background-color: #FF5700;
+    box-shadow: 0 0 50px #FF57007e;
+}
+
+.box.box6:hover {
+    background-color: #FFFC00;
+    box-shadow: 0 0 50px #FFFC007e;
+}
+
+.box.box7:hover {
+    background-color: #FF0000;
+    box-shadow: 0 0 50px #FF00007e;
+}
+
+p {
+    transform: translate(40px);
+}
+
+.box.icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: all .4s;
+}
+  /* create by IDR */
